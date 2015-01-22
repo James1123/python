@@ -9,7 +9,7 @@ ftp.cwd('/Misc')
 remotefile = 'Delta Build 1207 Release.docx'
 outfile = 'c:\\install\\' + remotefile
 
-print('This change was made by James')
+print('This change was remade by James')
 
 #with open(outfile, 'wb') as file:
 #    ftp.retrbinary("RETR " + remotefile, file.write)
